@@ -1,0 +1,2 @@
+2018-04-12 10:52:39,177 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\IECSC.TRANS.A\CurrentVersion\IECSC.Trans.exe[11788,0] >>>>527858
+2018-04-12 10:53:00,305 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\IECSC.CRN02\CurrentVersion\IECSC.CRN.DOUBLE.exe[5348,0] >>>>396966

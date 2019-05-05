@@ -1,0 +1,11 @@
+2018-03-02 07:46:28,563 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[6140,0] >>>>263568
+2018-03-02 07:48:49,036 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[7532,6140] >>>>329248
+2018-03-02 09:40:16,538 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[5536,7532] >>>>329378
+2018-03-02 09:41:29,108 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[6100,5536] >>>>460320
+2018-03-02 09:43:53,723 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[4284,6100] >>>>460450
+2018-03-02 10:05:57,958 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[3148,0] >>>>853834
+2018-03-02 10:19:46,888 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[3728,3148] >>>>1050300
+2018-03-02 10:59:20,951 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[6120,0] >>>>461206
+2018-03-02 11:01:10,299 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\IECSC.CRN01\CurrentVersion\IECSC.CRN.SINGLE.exe[9340,0] >>>>853436
+2018-03-02 11:02:41,139 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\IECSC.CRN01\CurrentVersion\IECSC.CRN.SINGLE.exe[10148,9340] >>>>2165154
+2018-03-02 14:59:30,252 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[9048,6120] >>>>854508

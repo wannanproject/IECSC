@@ -1,0 +1,158 @@
+2018-11-12 12:46:39,216 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 数据库连接异常：Oracle.ManagedDataAccess.Client.OracleException (0x00006D61): ORA-28001: the password has expired
+   在 OracleInternal.ConnectionPool.PoolManager`3.CreateNewPR(Int32 reqCount, Boolean bForPoolPopulation, ConnectionString csWithDiffOrNewPwd, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword)
+   在 Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   在 DapperExtensions.Database..ctor(IDbConnection connection, ISqlGenerator sqlGenerator)
+   在 MSTL.DbClient.DbHelper.GetDb(String connectionString, DataBaseType dataBaseType, String& errMsg)
+   在 IECSC.CRN.SINGLE.DbAction..ctor() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 49
+2018-11-12 12:46:39,246 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:39,373 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:40,066 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:41,053 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:42,066 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:43,056 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:44,056 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:45,054 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:46,055 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:47,051 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:48,056 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:49,054 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:50,053 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:51,053 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:52,054 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:53,058 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:54,052 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:55,054 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:56,056 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:57,052 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:58,069 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:46:59,057 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:00,080 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:01,060 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:02,056 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:03,066 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:04,080 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:05,070 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:06,070 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:07,065 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:08,087 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:09,090 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:10,089 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:11,086 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:12,106 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:13,106 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:14,096 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:15,097 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:16,097 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:17,096 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:18,107 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:19,116 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:20,107 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:21,106 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:22,108 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:23,115 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:24,106 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:25,116 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:26,107 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:27,107 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:28,116 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:29,107 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:30,120 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:31,100 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:32,097 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:33,097 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:34,097 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:35,120 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:36,096 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:37,110 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:38,100 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:39,101 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:40,096 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:41,110 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:42,099 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:43,106 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:44,116 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:45,109 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:46,107 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 连接数据库异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.DbAction.GetDbTime() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 65
+2018-11-12 12:47:52,396 [1] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 获取堆垛机错误描述异常:Oracle.ManagedDataAccess.Client.OracleException (0x000003AE): ORA-00942: 表或视图不存在
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   在 Dapper.SqlMapper.ExecuteReaderImpl(IDbConnection cnn, CommandDefinition& command, CommandBehavior commandBehavior, IDbCommand& cmd)
+   在 Dapper.SqlMapper.ExecuteReader(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 DapperExtensions.DapperExtensions.QueryTable(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 IECSC.CRN.SINGLE.DbAction.GetCrnFault() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 86

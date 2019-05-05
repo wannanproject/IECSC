@@ -1,0 +1,96 @@
+2018-05-03 08:21:31,660 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警异常:Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "CMD_OBJID": 标识符无效
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   在 Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 IECSC.CRN.SINGLE.DbAction.RecordWarnLog(Int32 objid) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbAction.cs:行号 267
+2018-05-03 08:21:32,717 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:33,747 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:34,767 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:35,783 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:36,803 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:37,826 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:38,846 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:39,867 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:40,899 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:41,920 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:42,972 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:43,993 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:45,025 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:46,047 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:47,076 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:48,104 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:49,130 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:50,169 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:51,187 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:52,222 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:53,246 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:54,267 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:55,319 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:56,347 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:57,368 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:58,384 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:21:59,423 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:22:00,437 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200
+2018-05-03 08:22:01,465 [11] ERROR IECSC.CRN.SINGLE.DbAction [(null)] - 记录设备报警信息异常:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IECSC.CRN.SINGLE.IndexerCrnFault.get_Item(String faultNo) 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\Entity\IndexerCrnFault.cs:行号 21
+   在 IECSC.CRN.SINGLE.DbAction.RecordSrmFaultInfo() 位置 E:\201804华宝项目\DataSource\IECSC.CRN\IECSC.CRN.SINGLE\IECSC.CRN.SINGLE\DbAction\DbActionEx.cs:行号 200

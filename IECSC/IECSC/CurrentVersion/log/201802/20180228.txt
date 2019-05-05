@@ -1,0 +1,2 @@
+2018-02-28 11:09:45,226 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[200,0] >>>>397302
+2018-02-28 16:06:25,474 [1] DEBUG IECSC.AppPanel [(null)] - ..\..\WCS.ExcuteJob\CurrentVersion\WCS.ExcuteJob.exe[10584,200] >>>>398666

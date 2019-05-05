@@ -1,0 +1,3 @@
+在对应系统的文件夹下需要有此文件下的dll文件：
+
+C:\Windows\System (Windows 95/98/Me), C:\WINNT\System32 (Windows NT/2000)， C:\Windows\System32 (Windows XP,Vista,7) 。 至此如果问题依旧，您可能需要使用regsvr32注册其中的opc_aeps.dll 文件，注册方法：1.单击开始，选择运行-以管理员身份运行-cmd:进入C:\Windows\System32 文件夹，  2.输入 regsvr32 文件名.dll 并按下确认 之后会弹出注册成功信息。

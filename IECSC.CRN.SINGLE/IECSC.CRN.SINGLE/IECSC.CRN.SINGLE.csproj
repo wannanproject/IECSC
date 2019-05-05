@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58BEA558-FF40-46DC-B4D0-477F981ACA29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IECSC.CRN.SINGLE</RootNamespace>
+    <AssemblyName>IECSC.CRN.SINGLE</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Image\blue_full.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\@package\@ORACLE\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DapperExtensions">
+      <HintPath>..\@package\@ORACLE\DapperExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="MSTL.DataStruct">
+      <HintPath>..\@package\@MSTL\MSTL.DataStruct.dll</HintPath>
+    </Reference>
+    <Reference Include="MSTL.DbClient">
+      <HintPath>..\@package\@ORACLE\MSTL.DbClient.dll</HintPath>
+    </Reference>
+    <Reference Include="MSTL.LogAgent">
+      <HintPath>..\@package\@MSTL\MSTL.LogAgent.dll</HintPath>
+    </Reference>
+    <Reference Include="MSTL.OpcClient, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\@package\@MSTL\MSTL.OpcClient.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcNetApi, Version=2.0.2.0, Culture=neutral, PublicKeyToken=9a40e993cbface53, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\@package\@OPC\OpcNetApi.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcNetApi.Com, Version=2.0.1.0, Culture=neutral, PublicKeyToken=9a40e993cbface53, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\@package\@OPC\OpcNetApi.Com.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\@package\@ORACLE\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BizHandle.cs" />
+    <Compile Include="Entity\Enums.cs" />
+    <Compile Include="Entity\IndexerCrnFault.cs" />
+    <Compile Include="Entity\OpcItem.cs" />
+    <Compile Include="Entity\PlcStatus.cs" />
+    <Compile Include="Entity\OpcGroup.cs" />
+    <Compile Include="Entity\TaskCmd.cs" />
+    <Compile Include="DbAction\DbAction.cs" />
+    <Compile Include="DbAction\DbActionEx.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcAction\OpcAction.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\Extensions.cs" />
+    <Compile Include="Tools\McConfig.cs" />
+    <Compile Include="Tools\ShowFormData.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="config\LogAgent.config" />
+    <None Include="log4net\log4net.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\blue_full.ico" />
+    <None Include="Image\check.png" />
+    <Content Include="Image\clear-icon-24.png" />
+    <Content Include="Image\close-32.png" />
+    <Content Include="Image\delete24.png" />
+    <Content Include="Image\invcodecheck.png" />
+    <Content Include="Image\new-24.png" />
+    <Content Include="Image\refresh-24.png" />
+    <Content Include="Image\Search-icon-24.png" />
+    <Content Include="Image\takeback24.png" />
+    <Content Include="log4net\log4net.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
