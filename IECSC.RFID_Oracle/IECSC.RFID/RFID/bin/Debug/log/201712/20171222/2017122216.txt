@@ -1,0 +1,61 @@
+2017-12-22 16:33:11,874 [1] ERROR RFID.BizRFID [(null)] - 初始化数据库连接异常：ORA-12541: TNS: 无监听程序
+2017-12-22 16:33:12,959 [1] ERROR RFID.BizRFID [(null)] - 初始化socket异常：Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12541: TNS: 无监听程序 ---> OracleInternal.Network.NetworkException (0x80004005): ORA-12541: TNS: 无监听程序 ---> System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1521
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 OracleInternal.Network.TcpTransportAdapter.Connect(ConnectionOption conOption)
+   在 OracleInternal.Network.OracleCommunication.DoConnect(String tnsDescriptor)
+   在 OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.CreateNewPR(Int32 reqCount, Boolean bForPoolPopulation, ConnectionString csWithDiffOrNewPwd, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword)
+   在 Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   在 DapperExtensions.Database..ctor(IDbConnection connection, ISqlGenerator sqlGenerator)
+   在 MSTL.DbClient.DbHelper.GetDb(String connectionString, DataBaseType dataBaseType, String& errMsg)
+   在 RFID.Tools.DBHelper..ctor() 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\Tools\DbHelper.cs:行号 39
+   在 RFID.Tools.DBHelper.get_Instance() 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\Tools\DbHelper.cs:行号 29
+   在 RFID.BizRFID.InitSocket(String& ErrMsg) 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\BizRFID.cs:行号 102
+2017-12-22 16:33:14,019 [1] ERROR RFID.BizRFID [(null)] - 显示列表信息时出现错误Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12541: TNS: 无监听程序 ---> OracleInternal.Network.NetworkException (0x80004005): ORA-12541: TNS: 无监听程序 ---> System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1521
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 OracleInternal.Network.TcpTransportAdapter.Connect(ConnectionOption conOption)
+   在 OracleInternal.Network.OracleCommunication.DoConnect(String tnsDescriptor)
+   在 OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.CreateNewPR(Int32 reqCount, Boolean bForPoolPopulation, ConnectionString csWithDiffOrNewPwd, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword)
+   在 Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   在 DapperExtensions.Database..ctor(IDbConnection connection, ISqlGenerator sqlGenerator)
+   在 MSTL.DbClient.DbHelper.GetDb(String connectionString, DataBaseType dataBaseType, String& errMsg)
+   在 RFID.Tools.DBHelper..ctor() 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\Tools\DbHelper.cs:行号 39
+   在 RFID.Tools.DBHelper.get_Instance() 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\Tools\DbHelper.cs:行号 29
+   在 RFID.BizRFID.InitDgvDisplay() 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\BizRFID.cs:行号 72
+2017-12-22 16:33:15,878 [9] ERROR RFID.MainForm [(null)] - 时钟执行异常Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-12541: TNS: 无监听程序 ---> OracleInternal.Network.NetworkException (0x80004005): ORA-12541: TNS: 无监听程序 ---> System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1521
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 OracleInternal.Network.TcpTransportAdapter.Connect(ConnectionOption conOption)
+   在 OracleInternal.Network.OracleCommunication.DoConnect(String tnsDescriptor)
+   在 OracleInternal.ServiceObjects.OracleConnectionImpl.Connect(ConnectionString cs, Boolean bOpenEndUserSession, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.CreateNewPR(Int32 reqCount, Boolean bForPoolPopulation, ConnectionString csWithDiffOrNewPwd, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword)
+   在 Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   在 DapperExtensions.Database..ctor(IDbConnection connection, ISqlGenerator sqlGenerator)
+   在 MSTL.DbClient.DbHelper.GetDb(String connectionString, DataBaseType dataBaseType, String& errMsg)
+   在 RFID.Tools.DBHelper..ctor() 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\Tools\DbHelper.cs:行号 39
+   在 RFID.Tools.DBHelper.get_Instance() 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\Tools\DbHelper.cs:行号 29
+   在 RFID.MainForm.RefreshStart() 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\MainForm.cs:行号 67
+2017-12-22 16:35:23,809 [1] ERROR RFID.Tools.DBHelper [(null)] - 2017-12-22 16:35:23：数据库实例化异常：
+2017-12-22 16:35:39,451 [11] ERROR RFID.MainForm [(null)] - 显示桌面信息时出现错误System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 RFID.MainForm.FormShow(String msg, ShowInfoType infoType) 位置 D:\VSWorkSpace\IECSC.RFID\IECSC.RFID\RFID\MainForm.cs:行号 132
+2017-12-22 16:36:08,872 [1] ERROR RFID.Tools.DBHelper [(null)] - 2017-12-22 16:36:08：数据库实例化异常：
+2017-12-22 16:37:54,801 [12] ERROR RFID.MainForm [(null)] - 显示桌面信息时出现错误System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 RFID.MainForm.FormShow(String msg, ShowInfoType infoType)
