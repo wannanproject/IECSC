@@ -1,0 +1,18 @@
+2019-05-07 15:18:56,792 [1] ERROR IECSC.RFID_ORACLE_WPF.DbAction [(null)] - [异常]执行DbAction()建立数据库连接失败:Oracle.ManagedDataAccess.Client.OracleException (0xFFFFFC18): 连接请求超时
+   在 OracleInternal.ConnectionPool.PoolManager`3.CreateNewPR(Int32 reqCount, Boolean bForPoolPopulation, ConnectionString csWithDiffOrNewPwd, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword)
+   在 Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   在 DapperExtensions.Database..ctor(IDbConnection connection, ISqlGenerator sqlGenerator)
+   在 MSTL.DbClient.DbHelper.GetDb(String connectionString, DataBaseType dataBaseType, String& errMsg)
+   在 IECSC.RFID_ORACLE_WPF.DbAction.ConnDb(String& errMsg) 位置 E:\WANNAN\IECSC\IECSC.RFID_ORACLE_WPF\IECSC.RFID_ORACLE_WPF\IECSC.RFID_ORACLE_WPF\Action\DbAction.cs:行号 58
+2019-05-07 15:19:11,889 [1] ERROR IECSC.RFID_ORACLE_WPF.DbAction [(null)] - [异常]执行DbAction()建立数据库连接失败:Oracle.ManagedDataAccess.Client.OracleException (0xFFFFFC18): 连接请求超时
+   在 OracleInternal.ConnectionPool.PoolManager`3.CreateNewPR(Int32 reqCount, Boolean bForPoolPopulation, ConnectionString csWithDiffOrNewPwd, String instanceName)
+   在 OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, String affinityInstanceName, Boolean bForceMatch)
+   在 OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword)
+   在 Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   在 DapperExtensions.Database..ctor(IDbConnection connection, ISqlGenerator sqlGenerator)
+   在 MSTL.DbClient.DbHelper.GetDb(String connectionString, DataBaseType dataBaseType, String& errMsg)
+   在 IECSC.RFID_ORACLE_WPF.DbAction.ConnDb(String& errMsg) 位置 E:\WANNAN\IECSC\IECSC.RFID_ORACLE_WPF\IECSC.RFID_ORACLE_WPF\IECSC.RFID_ORACLE_WPF\Action\DbAction.cs:行号 58
